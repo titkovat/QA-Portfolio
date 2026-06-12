@@ -1,6 +1,6 @@
 # 👩‍💻 QA Portfolio — Tetiana Titkova
 
-**Junior QA Engineer** · Manual Testing · Test Documentation · Bug Reporting · Jira · Zephyr · API Testing
+**Junior QA Engineer** · Manual Testing · Test Documentation · Bug Reporting · Jira · Zephyr
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Tetiana_Titkova-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/titkova-889670d)
 [![GitHub](https://img.shields.io/badge/GitHub-titkovat-181717?style=flat&logo=github)](https://github.com/titkovat)
@@ -11,11 +11,10 @@
 
 | Folder | What's inside | Tools |
 |--------|--------------|-------|
-| [📁 Jira-Zephyr](#-jira--zephyr-scale) | Test cases, bug reports, test execution report for Cars.UA | Jira, Zephyr Scale |
-| [📁 Test-Cases](#-test-cases) | Manual test cases in table format | Excel / Google Sheets |
-| [📁 Checklists](#-checklists) | Testing checklists for UI and functionality | Markdown / Excel |
-| [📁 Bug-Reports](#-bug-reports) | Detailed bug reports with steps, expected/actual results | Jira |
-| [📁 API-Testing](#-api-testing) | API test cases for GoRest v2 /users endpoint | Hoppscotch, Postman |
+| [📁 Jira-Zephyr](./Jira-Zephyr/README.md) | Test cases, bug reports, test execution report for Cars.UA | Jira, Zephyr Scale |
+| [📁 Test-Cases](./Test-Cases/) | Manual test cases in table format | Excel / Google Sheets |
+| [📁 Checklists](./Checklists/) | Testing checklists for UI and functionality | Markdown / Excel |
+| [📁 Bug-Reports](./Bug-Reports/) | Detailed bug reports with steps, expected/actual results | Jira |
 
 ---
 
@@ -30,7 +29,7 @@
 |-----|-----------|--------|
 | KAN-T1 | Filter cars by brand (Volkswagen) | ✅ PASS |
 | KAN-T2 | Search car by model (Toyota Camry) | ✅ PASS |
-| KAN-T3 | Search using lowercase input | ❌ FAIL → [KAN-1] |
+| KAN-T3 | Search using lowercase input | ❌ FAIL → KAN-1 |
 
 ### Bug Reports (Jira)
 
@@ -81,39 +80,11 @@ Detailed bug reports following standard QA format:
 
 ---
 
-## 🔌 API Testing
-
-**API under test:** [GoRest v2](https://gorest.co.in) — public REST API  
-**Tool:** Hoppscotch  
-**Endpoint:** `POST /public/v2/users`
-
-**Covered scenarios:**
-
-| Method | Scenario | Expected Status |
-|--------|----------|----------------|
-| POST | Create user — valid data | 201 Created |
-| POST | Create user — missing email | 422 Unprocessable |
-| POST | Create user — duplicate email | 422 Unprocessable |
-| POST | Create user — invalid gender | 422 Unprocessable |
-| POST | No auth token | 401 Unauthorized |
-| GET | Get list of users | 200 OK |
-| GET | Get user by valid id | 200 OK |
-| GET | Get user by non-existent id | 404 Not Found |
-| PUT | Update user name | 200 OK |
-| DELETE | Delete existing user | 204 No Content |
-| DELETE | Delete already-deleted user | 404 Not Found |
-| GET | Pagination (page + per_page) | 200 OK |
-
-📂 Full test case table: [API-Testing/GoRest_API_Test_Cases.xlsx](./API-Testing/GoRest_API_Test_Cases.xlsx)
-
----
-
 ## 🛠️ Tools & Skills
 
 | Category | Tools |
 |----------|-------|
 | Test Management | Jira, Zephyr Scale |
-| API Testing | Hoppscotch, Postman |
 | Documentation | Excel, Google Sheets, Markdown |
 | Version Control | GitHub |
 | Other | Chrome DevTools, ERP systems |
@@ -129,4 +100,3 @@ Detailed bug reports following standard QA format:
 
 *Open to Junior QA Engineer opportunities · Remote or Kryvyi Rih, Ukraine*  
 📧 titkovat85@ukr.net · [LinkedIn](https://www.linkedin.com/in/titkova-889670d)
-
