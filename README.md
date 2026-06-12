@@ -99,4 +99,4 @@ Detailed bug reports following standard QA format:
 ---
 
 *Open to Junior QA Engineer opportunities · Remote or Kryvyi Rih, Ukraine*  
-📧 titkovat85@ukr.net · [LinkedIn](https://www.linkedin.com/in/titkova-889670d)
+📧 titkovat85@ukr.net · [LinkedIn](https://www.linkedin.com/in/%D1%82%D0%B5%D1%82%D1%8F%D0%BD%D0%B0-%D1%82%D1%96%D1%82%D0%BA%D0%BE%D0%B2%D0%B0-88956730a/)
