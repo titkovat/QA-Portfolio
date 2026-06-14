@@ -45,7 +45,7 @@ The Viber chatbot link should open correctly and redirect the user to the Viber 
 
 **Attachment:**
 
-![BUG-001 Screenshot](screenshots/BUG-001_viber_link.png)
+![BUG-001 Screenshot](BUG-001_viber_link.jpg)
 
 ---
 
@@ -75,7 +75,7 @@ After clicking "Registration", the user should be redirected to the dealership r
 
 **Attachment:**
 
-![BUG-002 Screenshot](screenshots/BUG-002_http500.png)
+![BUG-002 Screenshot](BUG-002_http500.jpg)
 
 ---
 
@@ -105,7 +105,7 @@ City names should be displayed in Ukrainian, consistent with the site's localiza
 
 **Attachment:**
 
-![BUG-003 Screenshot](screenshots/BUG-003_russian_cities.png)
+![BUG-003 Screenshot](BUG-003_russian_cities.jpg)
 
 ---
 
@@ -113,9 +113,8 @@ City names should be displayed in Ukrainian, consistent with the site's localiza
 
 | File | Description |
 |---|---|
-| `CarsUA_Bug_Reports.xlsx` | Full bug reports in Excel format with screenshots |
+| `CarsUA_Bug_Reports.xlsx` | Full bug reports in Excel format |
+| `BUG-001_viber_link.jpg` | Screenshot for BUG-001 |
+| `BUG-002_http500.jpg` | Screenshot for BUG-002 |
+| `BUG-003_russian_cities.jpg` | Screenshot for BUG-003 |
 | `README.md` | Bug report summary (this file) |
-| `screenshots/` | Screenshots for each bug |
-
-
-
