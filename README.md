@@ -1,102 +1,114 @@
-# 👩‍💻 QA Portfolio — Tetiana Titkova
+# 🧪 QA Portfolio — Tetiana Titkova
 
-**Junior QA Engineer** · Manual Testing · Test Documentation · Bug Reporting · Jira · Zephyr
+**Junior QA Engineer · Manual Testing · Test Documentation · Bug Reporting · Jira · Zephyr · API Testing**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tetiana_Titkova-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/titkova-889670d)
-[![GitHub](https://img.shields.io/badge/GitHub-titkovat-181717?style=flat&logo=github)](https://github.com/titkovat)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tetiana%20Titkova-blue)](https://www.linkedin.com/in/tetiana-titkova)
+[![GitHub](https://img.shields.io/badge/GitHub-titkovat-black)](https://github.com/titkovat)
 
 ---
 
-## 🗂️ Portfolio Structure
+## 📁 Portfolio Structure
 
 | Folder | What's inside | Tools |
-|--------|--------------|-------|
-| [📁 Jira-Zephyr](./Jira-Zephyr/README.md) | Test cases, bug reports, test execution report for Cars.UA | Jira, Zephyr Scale |
-| [📁 Test-Cases](./Test-Cases/) | Manual test cases in table format | Excel / Google Sheets |
-| [📁 Checklists](./Checklists/) | Testing checklists for UI and functionality | Markdown / Excel |
-| [📁 Bug-Reports](./Bug-Reports/) | Detailed bug reports with steps, expected/actual results | Jira |
+|---|---|---|
+| 📂 [Jira-Zephyr](./Jira-Zephyr) | Test cases, bug reports, test execution report for Cars.UA | Jira, Zephyr Scale |
+| 📂 [Test-Cases](./Test-Cases) | Manual test cases in table format | Excel / Google Sheets |
+| 📂 [Checklists](./Checklists) | Testing checklists for UI and functionality | Markdown / Excel |
+| 📂 [Bug-Reports](./Bug-Reports) | Detailed bug reports with steps, expected/actual results | Jira |
+| 📂 [API Testing Postman](./API%20Testing%20Postman) | REST API testing with automated assertions | Postman, JSON |
 
 ---
 
-## 🐛 Jira + Zephyr Scale
+## 🔌 Jira + Zephyr Scale
 
-**Project:** [Cars.UA](https://cars.ua) — car marketplace  
+**Project:** [Cars.UA](https://cars.ua) — car marketplace
 **Scope:** Car search functionality, UI navigation, external links, dealership registration
 
 ### Test Cases (Zephyr Scale)
 
-| Key | Test Case | Result |
-|-----|-----------|--------|
-| KAN-T1 | Filter cars by brand (Volkswagen) | ✅ PASS |
-| KAN-T2 | Search car by model (Toyota Camry) | ✅ PASS |
-| KAN-T3 | Search using lowercase input | ❌ FAIL → KAN-1 |
-
-### Bug Reports (Jira)
-
-| Key | Summary | Severity | Status |
-|-----|---------|----------|--------|
-| KAN-1 | Viber Chatbot link in footer does not open | Medium | 🔴 Open |
-| KAN-2 | "Registration" button on Dealerships page returns HTTP 500 | Critical | 🔴 Open |
-
-### Test Execution Summary
-
-```
-Total: 3  |  Passed: 2  |  Failed: 1  |  Bugs filed: 2
-```
-
-📂 Full documentation with screenshots: [Jira-Zephyr/README.md](./Jira-Zephyr/README.md)
+> See full details in [Jira-Zephyr](./Jira-Zephyr) folder.
 
 ---
 
-## 📋 Test Cases
+## 📝 Test Cases
 
-Manual test cases written in table format covering functional scenarios.
+Manual test cases written for **cars.ua** covering:
+- Search functionality (equivalence classes + boundary values)
+- Filter functionality
+- UI elements
 
-**Format:** TC ID · Description · Preconditions · Steps · Expected Result · Actual Result · Status
+**Techniques used:** Equivalence Partitioning · Boundary Value Analysis
 
-📂 See: [Test-Cases/](./Test-Cases/)
+> See full details in [Test-Cases](./Test-Cases) folder.
 
 ---
 
 ## ✅ Checklists
 
-Testing checklists for quick sanity checks and regression rounds.
+UI and functional checklists for cars.ua:
+- Homepage UI elements
+- Login & phone number validation
+- Cross-browser testing (Chrome, Firefox, Safari, Edge)
+- Filter functionality
 
-📂 See: [Checklists/](./Checklists/)
-
----
-
-## 🔴 Bug Reports
-
-Detailed bug reports following standard QA format:
-- Summary
-- Preconditions
-- Steps to Reproduce
-- Expected vs Actual Result
-- Environment
-- Console errors / attachments
-
-📂 See: [Bug-Reports/](./Bug-Reports/)
+> See full details in [Checklists](./Checklists) folder.
 
 ---
 
-## 🛠️ Tools & Skills
+## 🐛 Bug Reports
+
+3 bug reports found and documented during manual testing of cars.ua:
+
+| ID | Title | Priority | Severity |
+|---|---|---|---|
+| BUG-001 | Viber Chatbot link does not open | High | Medium |
+| BUG-002 | Registration button returns HTTP 500 | High | Critical |
+| BUG-003 | City names displayed in Russian on Ukrainian version | Medium | Low |
+
+> See full details in [Bug-Reports](./Bug-Reports) folder.
+
+---
+
+## 🔌 API Testing with Postman
+
+**Project:** REST API testing for two real APIs
+
+### cars.ua API
+- `GET /api/v2/model/records?make_id=9` — retrieve BMW models
+- Discovered via Chrome DevTools → Network tab
+- Verified: status 200 OK, JSON format, correct make_id in response
+
+### GoRest API — Full CRUD Cycle
+
+| Method | Endpoint | Expected Status | Assertions |
+|---|---|---|---|
+| POST | `/users` | 201 Created | 3/3 ✅ |
+| PATCH | `/users/{id}` | 200 OK | 2/2 ✅ |
+| DELETE | `/users/{id}` | 204 No Content | 1/1 ✅ |
+| GET | `/users/{id}` | 404 Not Found | ✅ Confirmed |
+
+**Total: 9/9 automated assertions passed**
+
+Postman collection exported as JSON and available in the folder.
+
+> See screenshots, scripts and full details in [API Testing Postman](./API%20Testing%20Postman) folder.
+
+---
+
+## 🛠 Tools & Skills
 
 | Category | Tools |
-|----------|-------|
-| Test Management | Jira, Zephyr Scale |
-| Documentation | Excel, Google Sheets, Markdown |
-| Version Control | GitHub |
-| Other | Chrome DevTools, ERP systems |
+|---|---|
+| Bug Tracking | Jira |
+| Test Management | Zephyr Scale |
+| API Testing | Postman, Chrome DevTools |
+| Test Design Techniques | Equivalence Partitioning, Boundary Value Analysis |
+| Documentation | Excel, Markdown |
+| Data Formats | JSON, REST API |
+| Scripting | JavaScript (Postman Scripts) |
+| Cross-browser Testing | Chrome, Firefox, Safari, Edge |
 
 ---
 
-## 📚 Currently Learning
+📜 *Certificate in Software Testing — 2026*
 
-- QA Fundamentals Course — **Sigma Software University** (2025, in progress)
-- Completed: QA Tester Course — Diia.Education
-
----
-
-*Open to Junior QA Engineer opportunities · Remote or Kryvyi Rih, Ukraine*  
-📧 titkovat85@ukr.net · [LinkedIn](https://www.linkedin.com/in/%D1%82%D0%B5%D1%82%D1%8F%D0%BD%D0%B0-%D1%82%D1%96%D1%82%D0%BA%D0%BE%D0%B2%D0%B0-88956730a/)
