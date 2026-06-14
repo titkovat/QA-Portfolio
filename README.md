@@ -110,5 +110,5 @@ Postman collection exported as JSON and available in the folder.
 
 ---
 
-📜 *Certificate in Software Testing — 2026*
+📜 Certificate: QA Manual (SSWU QA001) — Sigma Software University, June 2026
 
