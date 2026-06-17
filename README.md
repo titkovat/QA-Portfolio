@@ -1,4 +1,4 @@
-# 🧪 QA Portfolio — Tetiana Titkova
+#  QA Portfolio — Tetiana Titkova
 
 **Junior QA Engineer · Manual Testing · Test Documentation · Bug Reporting · API Testing · Jira · Zephyr Scale**
 
@@ -7,7 +7,7 @@
 
 ---
 
-## 📁 Portfolio Structure
+##  Portfolio Structure
 
 | Folder | What's inside | Tools |
 |---|---|---|
@@ -20,7 +20,7 @@
 
 ---
 
-## 🔌 Jira + Zephyr Scale
+##  Jira + Zephyr Scale
 
 **Project:** [Cars.UA](https://cars.ua) — car marketplace
 **Scope:** Car search functionality, UI navigation, external links, dealership registration
@@ -36,7 +36,7 @@
 
 ---
 
-## 📝 Test Cases
+## Test Cases
 
 Manual test cases written for **cars.ua** covering search and filter functionality.
 
@@ -54,7 +54,7 @@ Manual test cases written for **cars.ua** covering search and filter functionali
 
 ---
 
-## ✅ Checklists
+##  Checklists
 
 UI and functional checklists for **cars.ua**:
 
@@ -69,7 +69,7 @@ UI and functional checklists for **cars.ua**:
 
 ---
 
-## 🐛 Bug Reports
+##  Bug Reports
 
 3 bugs found and documented during manual testing of **cars.ua**:
 
@@ -83,7 +83,7 @@ UI and functional checklists for **cars.ua**:
 
 ---
 
-## 🔌 API Testing with Postman
+##  API Testing with Postman
 
 **APIs tested:** cars.ua API + GoRest public API
 
@@ -101,7 +101,7 @@ UI and functional checklists for **cars.ua**:
 
 ---
 
-## 📋 Test Plan
+##  Test Plan
 
 Full test plan created for **TableTime** — online table and event hall booking system.
 
@@ -116,7 +116,7 @@ Full test plan created for **TableTime** — online table and event hall booking
 
 ---
 
-## 🛠 Tools & Skills
+##  Tools & Skills
 
 | Category | Tools |
 |---|---|
@@ -131,4 +131,4 @@ Full test plan created for **TableTime** — online table and event hall booking
 
 ---
 
-📜 **Certificate:** QA Manual (SSWU QA001) — Sigma Software University, June 2026
+ **Certificate:** QA Manual (SSWU QA001) — Sigma Software University, June 2026
