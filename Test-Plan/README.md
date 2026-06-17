@@ -4,7 +4,7 @@ This folder contains a test plan created for the **TableTime** — an online tab
 
 ---
 
-## 📄 Document Info
+## Document Info
 
 | Field | Details |
 |---|---|
@@ -15,7 +15,7 @@ This folder contains a test plan created for the **TableTime** — an online tab
 
 ---
 
-## 🎯 What is covered
+## What is covered
 
 | Section | Details |
 |---|---|
@@ -30,7 +30,7 @@ This folder contains a test plan created for the **TableTime** — an online tab
 
 ---
 
-## ✅ Exit Criteria
+## Exit Criteria
 
 - All critical and high-priority defects are fixed
 - 100% of critical test cases executed
@@ -40,7 +40,7 @@ This folder contains a test plan created for the **TableTime** — an online tab
 
 ---
 
-## 📁 Files in this folder
+##  Files in this folder
 
 | File | Description |
 |---|---|
